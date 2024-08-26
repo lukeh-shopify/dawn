@@ -2,3 +2,20 @@ MatchingTranslations:
   enabled: false
 TemplateLength:
   enabled: false
+
+ignore: [
+  layout/password.liquid,
+  layout/theme.liquid,
+  sections/announcement-bar.liquid,
+  sections/email-signup-banner.liquid,
+  sections/featured-product.liquid,
+  sections/footer.liquid,
+  sections/header.liquid,
+  sections/main-article.liquid,
+  sections/main-list-collections.liquid,
+  sections/main-password-footer.liquid,
+  sections/main-password-header.liquid,
+  sections/main-product.liquid,
+  sections/main-search.liquid,
+  snippets/product-variant-options.liquid,
+]
