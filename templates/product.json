@@ -7,11 +7,11 @@
           "type": "text",
           "settings": {
             "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
+            "text_style": "uppercase",
+          },
         },
         "title": {
-          "type": "title"
+          "type": "title",
         },
         "caption": {
           "type": "text",
