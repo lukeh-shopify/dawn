@@ -1,0 +1,16 @@
+{
+  "context": {},
+  "parent": "index.json",
+  "sections": {
+    "image_banner": {
+      "settings": {},
+      "blocks": {
+        "heading": {
+          "settings": {
+            "heading": "should definitely not sync back to shopify"
+          }
+        }
+      }
+    }
+  }
+}
