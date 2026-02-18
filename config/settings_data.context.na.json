@@ -13,6 +13,7 @@
   },
   "current": {
     "type_header_font": "abril_fatface_n4",
+    "page_width": 1600,
     "color_schemes": {
       "scheme-1": {
         "settings": {}
