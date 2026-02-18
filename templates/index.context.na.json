@@ -8,12 +8,20 @@
  * ------------------------------------------------------------
  */
 {
-  "markets": {
-    "ca": {
-      "parent": "na"
-    },
-    "na": {
-      "parent": "@default"
+  "context": {
+    "market": "na"
+  },
+  "parent": "index.json",
+  "sections": {
+    "image_banner": {
+      "settings": {},
+      "blocks": {
+        "heading": {
+          "settings": {
+            "heading": "na"
+          }
+        }
+      }
     }
   }
 }
