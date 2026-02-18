@@ -13,6 +13,7 @@
   },
   "current": {
     "type_header_font": "abril_fatface_n4",
+    "heading_scale": 150,
     "page_width": 1600,
     "buttons_border_thickness": 12,
     "color_schemes": {
