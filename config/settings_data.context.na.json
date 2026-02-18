@@ -12,6 +12,7 @@
     "market": "na"
   },
   "current": {
+    "type_header_font": "andada_pro_n4",
     "color_schemes": {
       "scheme-1": {
         "settings": {}
