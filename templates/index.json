@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "should update",
+            "heading": "default",
             "heading_size": "h0"
           }
         },
