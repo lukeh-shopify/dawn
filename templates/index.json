@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "error?",
+            "heading": "<strong>dawn/an-even-longer-branch-name-that-should-tak...</strong>",
             "heading_size": "h0"
           }
         },
