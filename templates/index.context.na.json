@@ -20,6 +20,12 @@
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.fff</p>"
           }
+        },
+        "button_wpFUA": {
+          "settings": {
+            "button_style_secondary": true,
+            "button_label": "Button label buttonsss"
+          }
         }
       }
     }
