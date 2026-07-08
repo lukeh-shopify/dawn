@@ -88,9 +88,21 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "button_KGDrC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
+        "button_KGDrC",
         "button_wpFUA",
         "text_bpP4z",
         "heading",

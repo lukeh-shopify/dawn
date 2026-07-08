@@ -26,8 +26,20 @@
             "button_style_secondary": true,
             "button_label": "Button label buttonsss"
           }
+        },
+        "button_KGDrC": {
+          "settings": {
+            "button_label": "Button label na"
+          }
         }
-      }
+      },
+      "block_order": [
+        "button_wpFUA",
+        "text_bpP4z",
+        "heading",
+        "button_KGDrC",
+        "text"
+      ]
     }
   }
 }
