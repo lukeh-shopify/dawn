@@ -8,15 +8,20 @@
  * ------------------------------------------------------------
  */
 {
-  "markets": {
-    "ca": {
-      "parent": "na"
-    },
-    "na": {
-      "parent": "@default"
-    },
-    "b2b-test": {
-      "parent": "@default"
+  "context": {
+    "market": "b2b-test"
+  },
+  "parent": "index.json",
+  "sections": {
+    "image_banner": {
+      "settings": {},
+      "blocks": {
+        "heading": {
+          "settings": {
+            "heading": "b2b"
+          }
+        }
+      }
     }
   }
 }
