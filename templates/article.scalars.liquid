@@ -1,0 +1,20 @@
+{% layout none %}
+<!doctype html>
+<html>
+<body>
+<pre>
+[badge={{ article.metafields.custom.badge }}|{{ article.metafields.custom.badge.value }}|{{ article.metafields.custom.badge.type }}]
+[count={{ article.metafields.custom.count }}|{{ article.metafields.custom.count.value }}|{{ article.metafields.custom.count.type }}]
+[flag={{ article.metafields.custom.flag }}|{{ article.metafields.custom.flag.value }}|{{ article.metafields.custom.flag.type }}]
+[count-truthy={% if article.metafields.custom.count %}yes{% else %}no{% endif %}]
+[flag-truthy={% if article.metafields.custom.flag %}yes{% else %}no{% endif %}]
+[flag-value-truthy={% if article.metafields.custom.flag.value %}yes{% else %}no{% endif %}]
+[missing={{ article.metafields.custom.missing }}|{{ article.metafields.custom.missing.value }}|{{ article.metafields.custom.missing.type }}]
+[missing-nil={% if article.metafields.custom.missing == nil %}yes{% else %}no{% endif %}]
+[absent-nil={% if article.metafields.absent == nil %}yes{% else %}no{% endif %}]
+[absent-blank={% if article.metafields.absent == blank %}yes{% else %}no{% endif %}]
+[absent-key={{ article.metafields.absent.key }}|{{ article.metafields.absent.key.value }}]
+[absent-key-nil={% if article.metafields.absent.key == nil %}yes{% else %}no{% endif %}]
+</pre>
+</body>
+</html>
