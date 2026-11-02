@@ -17,6 +17,9 @@
     },
     "b2b-test": {
       "parent": "@default"
+    },
+    "mehico": {
+      "parent": "na"
     }
   }
 }
